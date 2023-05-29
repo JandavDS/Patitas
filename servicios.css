@@ -1,0 +1,66 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+    background-color: #efefef;
+    background-image: url(Perro-gato.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.95;
+    position: relative;
+}
+header{
+    background-color: #00a69c;
+    color:white;
+    padding: 0.5rem 0.5rem ;
+    
+}
+header h1{
+    font-size: 4rem ;
+    text-align: center;
+}
+.container{
+    width: 400px;
+    margin: 0 auto;
+    color: #00a69c;
+    background-color: lightgrey;
+    box-shadow: 0 0 6px 0 #00a69c;
+    
+}
+section article{
+    background-color:lightgray ;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    font-size: 25px;
+}
+
+section article h2, section article p{
+    margin: 2rem;
+    text-align: center;
+}
+.link{
+    color:#00a69c;
+    font-size: 18px;
+    text-decoration: none;
+}
+.link:hover{
+
+    text-shadow: 0 0.1rem 0.4rem #5c400a;
+    color: #5c400a;
+}
+.return{
+    color:white;
+    
+}
+@media(min-width:768px){
+    .container{
+        margin: auto;
+        width: 400px;
+        margin-top: 50px;
+        border-radius: 2%;
+    }
+}

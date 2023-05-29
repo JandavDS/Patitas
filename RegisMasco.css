@@ -1,0 +1,111 @@
+body{
+    
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    background-image: url(Perro-gato.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.95;
+    
+    
+    
+}
+*{
+    box-sizing:border-box;
+    
+}
+.top {
+    background-color:#00a69c;
+    /* opacity: 0.3; */
+    height: 40px;
+}
+
+.container{
+    
+    width: 100%;
+    padding: 10%;
+
+}
+.formulario{
+    background: lightgrey;
+    margin-top: 200px;
+    padding: 1px;
+    box-shadow: 0 0 6px 0 #00a69c;
+    color:#00a69c
+}
+h1{
+    text-align: center;
+    color:#00a69c;
+    font-size: 40px
+}
+input{
+
+    background-color: lightgray;
+    border: none;
+    font-size: 20px;
+    width: 100%;
+    padding: 20px 20px 20px 15px;
+    border-bottom: 1px solid;
+    
+}
+input:hover{
+    text-shadow: 0 0.1rem 0.4rem #5c400a;
+    color: grey;
+
+}
+label{
+    font-size: 20px;
+    font-style: italic;
+}
+.seleccion{
+    background-color: lightgray;
+    border: none;
+    font-size: 20px;
+    width: 100%;
+    padding: 20px 20px 20px 15px;
+    border-bottom: 1px solid;
+    margin-bottom: 30px;
+    font-style: italic;
+    
+    
+}
+.seleccion:hover{
+    text-shadow: 0 0.1rem 0.4rem #5c400a;
+    color: grey;
+}
+
+.input-contenedor{
+    margin-bottom: 30px;
+    text-align: center;
+    color: #00a69c;
+    border: none;
+
+}
+::placeholder{
+    font-style: italic;
+    color:#00a69c;
+}
+.button{
+    border: none;
+    width: 50%;
+    color: white;
+    font-size: 20px;
+    background-color: #00a69c;
+    padding: 10px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.button:hover{
+    background: #5c400a;
+}
+@media(min-width:768px){
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}

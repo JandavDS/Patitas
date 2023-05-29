@@ -1,0 +1,40 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    
+}
+*{
+    box-sizing: border-box;
+}
+
+.top {
+    background-color:#00a69c;
+    /* opacity: 0.3; */
+    height: 40px;
+}
+h1{
+    text-shadow: 1px 2px #000;
+    font-size:4rem;
+    color:#00a69c;
+    margin: auto;
+}
+.container{
+    margin: auto;
+    text-align: center;
+}
+.inicio{
+    font-size: 1.5rem;
+    margin: 10%;
+
+}    
+.inicio a {
+
+    color: #5c400a;
+    transition:0s;
+}  
+
+.inicio a:hover{
+    text-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);;
+    color: #00a69c;
+}
+
